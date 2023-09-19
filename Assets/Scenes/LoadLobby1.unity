@@ -932,4 +932,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   loadBar: {fileID: 445789069}
   barTxt: {fileID: 1470871593}
+  nameDeck1: Naruto
   sceneId: 1

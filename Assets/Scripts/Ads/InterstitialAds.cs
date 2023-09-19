@@ -5,7 +5,7 @@ using UnityEngine.Advertisements;
 
 public class InterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowListener
 {
-
+    public static InterstitialAds Instance;
     [SerializeField] private string androidAdID = "Interstitial_Android";
     [SerializeField] private string iOSAdID = "Interstitial_iOS";
 
@@ -13,6 +13,14 @@ public class InterstitialAds : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsSh
 
     public void Awake()
     {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(Instance);
+        }
         adID = (Application.platform == RuntimePlatform.IPhonePlayer)
             ? iOSAdID
             : androidAdID;
