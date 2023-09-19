@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     public static MenuController Instance;
+    
     public string NextScene;
     public string SceneNameLoad = "LoadLobby";
 
@@ -20,6 +21,8 @@ public class MenuController : MonoBehaviour
         {
             Destroy(Instance);
         }
+        
+        
     }
     public void LoadScenes(string NextScene)
     {

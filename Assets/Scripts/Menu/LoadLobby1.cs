@@ -9,9 +9,23 @@ public class LoadLobby1 : MonoBehaviour
     AsyncOperation asyncOperation;
     public Image loadBar;
     public TMP_Text barTxt;
+    [SerializeField] private string nameDeck1;
     public int sceneId;
 
     private float progress;
+
+    void Awake()
+    {
+        if (PlayerPrefs.GetString("NamesDeck") == "")
+        {
+            PlayerPrefs.SetString("NamesDeck", nameDeck1);
+            PlayerPrefs.SetInt("_idShirt", 0);
+            PlayerPrefs.SetInt("_idTable", 0);
+            PlayerPrefs.SetInt("_countCard", 4);
+            PlayerPrefs.SetFloat("ValumeSound", 100*100);
+            PlayerPrefs.SetFloat("ValumeMusic", 100*100);
+        }
+    }
 
     private void Start()
     {
