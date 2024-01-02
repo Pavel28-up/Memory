@@ -492,7 +492,7 @@ public class OptionController : MonoBehaviour
         yield return new WaitForSeconds(.5f);
         
         MusicOption.Instance.SaveSoundInMusic();
-        PlayerPrefs.SetString("NamesDeck", nameDeckBut.text.ToString());
+        PlayerPrefs.SetString("NamesDeck", nameDeckBut.text);
         PlayerPrefs.SetInt("_idShirt", _idShirt);
         PlayerPrefs.SetInt("_idTable", _idTable);
         PlayerPrefs.SetInt("_countCard", _countCard);

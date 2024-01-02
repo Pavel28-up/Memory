@@ -56,10 +56,7 @@ public class GameController : MonoBehaviour
         _idShirt = PlayerPrefs.GetInt("_idShirt");
         _idTable = PlayerPrefs.GetInt("_idTable");
         _countCard = PlayerPrefs.GetInt("_countCard");
-    }
 
-    void Start()
-    {
         _nameDeck = PlayerPrefs.GetString("NamesDeck");
         nameDeck1 = PlayerPrefs.GetString("nameDeck1");
         nameDeck2 = PlayerPrefs.GetString("nameDeck2");
@@ -67,6 +64,11 @@ public class GameController : MonoBehaviour
         nameDeck4 = PlayerPrefs.GetString("nameDeck4");
         nameDeck5 = PlayerPrefs.GetString("nameDeck5");
         nameDeck6 = PlayerPrefs.GetString("nameDeck6");
+    }
+
+    void Start()
+    {
+        
     }
 
     public Sprite[] OnDeckCard()

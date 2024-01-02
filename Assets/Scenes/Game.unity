@@ -365,7 +365,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 744.54004, y: -397.46002}
+  m_AnchoredPosition: {x: 477.00006, y: -470.17004}
   m_SizeDelta: {x: 600, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &197761617
@@ -437,14 +437,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4811321, g: 0.36947313, b: 0.36947313, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6123f7c3d26149940829bf6c1b338d8b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcf8e08d43ab80d4ea48e07284da4a71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -815,12 +815,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 72264322e8ec0654a8a97a60faa3fc55, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fffb1068d087594499e96a3832ae927, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 12.8, y: 7.2}
+  m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -834,8 +834,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 625202721}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4582, y: -0.0509, z: 1.5}
-  m_LocalScale: {x: 2.2886245, y: 2.4469426, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1.5}
+  m_LocalScale: {x: 1.1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1137,8 +1137,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1161,7 +1161,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1496,10 +1496,58 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 8534a93a783defb4f80c309e10ff49e6, type: 3}
   - {fileID: 21300000, guid: beadc5298598a384e823edde71e6121b, type: 3}
   - {fileID: 21300000, guid: 254052d7ba3bc8c41a8b8f69ffcfb92b, type: 3}
-  images2: []
-  images3: []
-  images4: []
-  images5: []
+  images2:
+  - {fileID: 21300000, guid: 8573b210fb4a9dc4d95d1a0c345a22d4, type: 3}
+  - {fileID: 21300000, guid: b85407f4349111f47a97aa4f33d4fdf9, type: 3}
+  - {fileID: 21300000, guid: 8bd1fc93a61f9a943b27b40aa04d6516, type: 3}
+  - {fileID: 21300000, guid: 8754640085a28dc41820a6f160db7d18, type: 3}
+  - {fileID: 21300000, guid: 7b1ca2f36d1767741a8fad0a973c692c, type: 3}
+  - {fileID: 21300000, guid: 86940f0baec32ac47b4d802c79a486d5, type: 3}
+  - {fileID: 21300000, guid: f3443075a008d3844ad50530b8a6794e, type: 3}
+  - {fileID: 21300000, guid: 19277a3b1a64fa646a716e6cfd44e035, type: 3}
+  - {fileID: 21300000, guid: b4219efcd8fb3354c9cd26246b937ddc, type: 3}
+  - {fileID: 21300000, guid: c4a7cd7308576b140abf00f2d76c1c0d, type: 3}
+  - {fileID: 21300000, guid: 6f9d76f1fa446ec458fec2f81a1449e3, type: 3}
+  - {fileID: 21300000, guid: 3a99cd9a854e92b4195183b8f8eb9798, type: 3}
+  images3:
+  - {fileID: 21300000, guid: 6a5bcabff6f95634c989b653f2369e44, type: 3}
+  - {fileID: 21300000, guid: cabf50984203cd3429c1c1274d841d5c, type: 3}
+  - {fileID: 21300000, guid: f6babb56f10adc74894c9071b38585a1, type: 3}
+  - {fileID: 21300000, guid: 3df0580f6b935154f959f4091cec50e6, type: 3}
+  - {fileID: 21300000, guid: 94735521def3aaf4f96dab929d55b301, type: 3}
+  - {fileID: 21300000, guid: d9ecb77d933fa5f4c99c1c1763bead43, type: 3}
+  - {fileID: 21300000, guid: f3a4f13e9fd16e446b71fdd43f950a72, type: 3}
+  - {fileID: 21300000, guid: 6a5357c2c95bb3441a8d3a41df67fd63, type: 3}
+  - {fileID: 21300000, guid: e737982f4c461d14dbababa5e6d8c0c4, type: 3}
+  - {fileID: 21300000, guid: 929b4242d7b52b04bb6eb4bc47057982, type: 3}
+  - {fileID: 21300000, guid: 1fe024f824eb9ab408d2a9b5472ddd5d, type: 3}
+  - {fileID: 21300000, guid: 1d7f5ccc070b0fd4a8ac31bc703ed055, type: 3}
+  images4:
+  - {fileID: 21300000, guid: a0f3593beeeb6de4baa5e5af5ad68e95, type: 3}
+  - {fileID: 21300000, guid: 4832d1e19c3f5f248a5edcf7d6d79834, type: 3}
+  - {fileID: 21300000, guid: 56e78cabf0e03d247b46f295ffa0a4e6, type: 3}
+  - {fileID: 21300000, guid: de3a62e1406d23440a4469574cdf20d6, type: 3}
+  - {fileID: 21300000, guid: c7abc97471b6506419122f43fd6be113, type: 3}
+  - {fileID: 21300000, guid: 111345de6a6209144a6f348604f812a6, type: 3}
+  - {fileID: 21300000, guid: 761d1b8f6dc5fe143bc846fb635adc5a, type: 3}
+  - {fileID: 21300000, guid: 0f293cb00ce81de4d924d53bc2ee283b, type: 3}
+  - {fileID: 21300000, guid: 167ecc19b74dcc84ba9914155da3f2c8, type: 3}
+  - {fileID: 21300000, guid: 19169f2346dd4d94babe9201f6788cb3, type: 3}
+  - {fileID: 21300000, guid: 323ed3738c26a7d4bab25db62870bf84, type: 3}
+  - {fileID: 21300000, guid: c81cc97f1bdab8b4daccaab8cf88458e, type: 3}
+  images5:
+  - {fileID: 21300000, guid: 8a7102923c0000e42b9b7ad73c18d627, type: 3}
+  - {fileID: 21300000, guid: 54e7d5b8a6acf7346a4afe76445bf4b8, type: 3}
+  - {fileID: 21300000, guid: 84569515d0e89eb4e9c77879e7f006ec, type: 3}
+  - {fileID: 21300000, guid: 2df75f668eb3e98488ac22010b4d53ff, type: 3}
+  - {fileID: 21300000, guid: f1225a18d63a4e447b7fcf0918909934, type: 3}
+  - {fileID: 21300000, guid: ecdc99bdccc566148a1353836dfa4584, type: 3}
+  - {fileID: 21300000, guid: 3f3b7080e1232324a983280d6b46a159, type: 3}
+  - {fileID: 21300000, guid: a78e44a9dc7b0d04482845df49cb852a, type: 3}
+  - {fileID: 21300000, guid: 5fd90054778e49243b20fb22f7d9f1ad, type: 3}
+  - {fileID: 21300000, guid: 68240a3fae4e9574cb3ad660628db7ff, type: 3}
+  - {fileID: 21300000, guid: 4c4bc7a53c3d55d4f86ad9b364529532, type: 3}
+  - {fileID: 21300000, guid: 68763304f549964479b906bfd21f5432, type: 3}
   images6: []
   imageShirt1:
   - {fileID: 21300000, guid: a7986c912ccd7424e8756b92d87ec550, type: 3}
@@ -1540,20 +1588,65 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b61f6abd994f2b142b2851d6a1c38608, type: 3}
   - {fileID: 21300000, guid: e0336a586501a18409480bbf494447ca, type: 3}
   - {fileID: 21300000, guid: da53a5a598a2399429d4e185f35f5fe3, type: 3}
-  imageShirt2: []
-  imageShirt3: []
-  imageShirt4: []
-  imageShirt5: []
+  imageShirt2:
+  - {fileID: 21300000, guid: 5116ca8b49ad5fd4e8ec2c3366b538f7, type: 3}
+  - {fileID: 21300000, guid: 59c7838cfff3db64e9145c9c1cceb27d, type: 3}
+  - {fileID: 21300000, guid: f90233fe52a7aca4680d8ce2767d7284, type: 3}
+  - {fileID: 21300000, guid: 75b97f0b1e4247149b63ccb3157a6213, type: 3}
+  - {fileID: 21300000, guid: 40097778ec2d7ea4888ef716d67a4ea4, type: 3}
+  - {fileID: 21300000, guid: 5934c64f8d623e6489b3d84d21f2cd75, type: 3}
+  imageShirt3:
+  - {fileID: 21300000, guid: c7e848bbf64fdef41a1da5e051d60eeb, type: 3}
+  - {fileID: 21300000, guid: e95c3b7120e03a44581fd22808fec641, type: 3}
+  - {fileID: 21300000, guid: d1dbcc4799a97f448a51d53c4fb018c9, type: 3}
+  - {fileID: 21300000, guid: 1d39e964a538fbf4e85b5847dae9277c, type: 3}
+  - {fileID: 21300000, guid: 36c4826f3a3f65646945f06277d84625, type: 3}
+  - {fileID: 21300000, guid: 6a769812fe50c694ca05d61664f64956, type: 3}
+  - {fileID: 21300000, guid: 1fa245bfd9e623e408278e6cd2bdbd48, type: 3}
+  - {fileID: 21300000, guid: 78b6d0a201f10974199ceeacb5ad708e, type: 3}
+  - {fileID: 21300000, guid: fb99ab1bb6166804da7c77b5ee397c19, type: 3}
+  - {fileID: 21300000, guid: 1e49e1840b351424480d64ee0c40d95b, type: 3}
+  - {fileID: 21300000, guid: 4d1a17331312da748b779cb4c28c6e5e, type: 3}
+  - {fileID: 21300000, guid: 401661c900bf9354388f4ba55143b97d, type: 3}
+  - {fileID: 21300000, guid: 025b85a56e7d9f943b421b30b64d6ac4, type: 3}
+  imageShirt4:
+  - {fileID: 21300000, guid: 62f2855fc3c30564cab3d0473aac3258, type: 3}
+  - {fileID: 21300000, guid: 5b9409ad70426d04180750328f809282, type: 3}
+  - {fileID: 21300000, guid: 837684d6827aae84f9af85ecd486a8d3, type: 3}
+  imageShirt5:
+  - {fileID: 21300000, guid: f3e39777deb65e640b31806956e52266, type: 3}
   imageShirt6: []
   imageTable1:
   - {fileID: 21300000, guid: 72264322e8ec0654a8a97a60faa3fc55, type: 3}
   - {fileID: 21300000, guid: 0f74a4e7746b2934fa3ddd34ed023938, type: 3}
   - {fileID: 21300000, guid: 3ff734957cad90f42bbf46ed47e44065, type: 3}
   - {fileID: 21300000, guid: 7c2fbb1a07ab5d64c8501bbf81bc6204, type: 3}
-  imageTable2: []
-  imageTable3: []
-  imageTable4: []
-  imageTable5: []
+  imageTable2:
+  - {fileID: 21300000, guid: 8ac0e5684994d0244ad5df0ade54b6c7, type: 3}
+  - {fileID: 21300000, guid: baf6174af6efc364f8efdac52d73e670, type: 3}
+  - {fileID: 21300000, guid: 58f93e268a94dd54e81f0d5e3c975393, type: 3}
+  - {fileID: 21300000, guid: 2985c2e604c07a142b68534e2a3335ce, type: 3}
+  - {fileID: 21300000, guid: 37375076c84b1b94c96bb023018e6f2b, type: 3}
+  - {fileID: 21300000, guid: 6d368666cdf3eb941b705a56b22e977a, type: 3}
+  - {fileID: 21300000, guid: 4fffb1068d087594499e96a3832ae927, type: 3}
+  imageTable3:
+  - {fileID: 21300000, guid: 9c886c36d0ae4944e970f355795253fc, type: 3}
+  - {fileID: 21300000, guid: c70eee25299189b48ac7c9a711f73f7c, type: 3}
+  - {fileID: 21300000, guid: e61e695a20d589149a85487e44598f35, type: 3}
+  - {fileID: 21300000, guid: 8d1b9b25b76b9e84793feb901fe1a993, type: 3}
+  - {fileID: 21300000, guid: a9e931ee70857904fa2de5e563a7f1e3, type: 3}
+  - {fileID: 21300000, guid: b7b3e1f8e5999b4478d811d41b98db18, type: 3}
+  - {fileID: 21300000, guid: 78eff4e1fbc45c449af24b58cef09fb1, type: 3}
+  imageTable4:
+  - {fileID: 21300000, guid: c342b33288422d54699577569d4083bf, type: 3}
+  - {fileID: 21300000, guid: 3040a9c524f59f84190ab5445ef765df, type: 3}
+  - {fileID: 21300000, guid: fcd0ca4a88ca11e4587c312d8c71a85a, type: 3}
+  - {fileID: 21300000, guid: 55d2875cca015fc40ba53d6ecb18fa22, type: 3}
+  - {fileID: 21300000, guid: dad02e1f574692b4bb3fa79a0a884cae, type: 3}
+  - {fileID: 21300000, guid: 74953d8c8b3ce6c48849f625271ed911, type: 3}
+  imageTable5:
+  - {fileID: 21300000, guid: 9f0e3fa7ca28e274690b3e2afcce3a54, type: 3}
+  - {fileID: 21300000, guid: 0b32cf32f57748f4db59079536896360, type: 3}
   imageTable6: []
   nameDeck1: 
   nameDeck2: 
@@ -1614,7 +1707,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 744.54004, y: -237.46002}
+  m_AnchoredPosition: {x: 477.00006, y: -310.17004}
   m_SizeDelta: {x: 600, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1370500725
@@ -1686,14 +1779,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.48235297, g: 0.37254903, b: 0.37254903, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6123f7c3d26149940829bf6c1b338d8b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcf8e08d43ab80d4ea48e07284da4a71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2048,8 +2141,8 @@ RectTransform:
   m_Father: {fileID: 2099766654}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.11143753, y: 0.2332963}
-  m_AnchorMax: {x: 0.887, y: 0.82118523}
+  m_AnchorMin: {x: 0.342, y: 0.3197958}
+  m_AnchorMax: {x: 0.66429734, y: 0.69237244}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2090,14 +2183,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.6037736, g: 0.46934852, b: 0.46934852, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6123f7c3d26149940829bf6c1b338d8b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3d94b19510b09a24da1c02fb4cbc4963, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2415,8 +2508,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2439,7 +2532,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2552,8 +2645,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2576,7 +2669,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 17
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2657,7 +2750,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 744.54004, y: -237.46002}
+  m_AnchoredPosition: {x: 477.00006, y: -150.17004}
   m_SizeDelta: {x: 600, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2070291743
@@ -2729,14 +2822,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.48235297, g: 0.37254903, b: 0.37254903, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6123f7c3d26149940829bf6c1b338d8b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bcf8e08d43ab80d4ea48e07284da4a71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2887,10 +2980,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 2960, y: 1440}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
