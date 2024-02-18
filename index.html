@@ -94,7 +94,7 @@
           } else {
               // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-              canvas.style.width = "900px";
+              canvas.style.width = "960px";
               canvas.style.height = "600px";
           }
 
@@ -107,7 +107,7 @@
               createUnityInstance(canvas, config, (progress) => {
                   progressBarFull.style.width = 100 * progress + "%";
               }).then((unityInstance) => {
-                  unityI = unityInstance
+                  unityI = unityInstance;
                   loadingBar.style.display = "none";
                   fullscreenButton.onclick = () => {
                       unityInstance.SetFullscreen(1);
@@ -120,6 +120,7 @@
           document.body.appendChild(script);
 
       </script>
+
       <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
 
       <script type="text/javascript">
