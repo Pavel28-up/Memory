@@ -9,7 +9,7 @@
   </head>
   <body>
       <div id="unity-container" class="unity-desktop">
-          <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+          <canvas id="unity-canvas" width=900 height=600 tabindex="-1"></canvas>
           <div id="unity-loading-bar">
               <div id="unity-logo"></div>
               <div id="unity-progress-bar-empty">
@@ -59,9 +59,9 @@
           var buildUrl = "Build";
           var loaderUrl = buildUrl + "/Memory.loader.js";
           var config = {
-              dataUrl: buildUrl + "/Memory.data.br",
-              frameworkUrl: buildUrl + "/Memory.framework.js.br",
-              codeUrl: buildUrl + "/Memory.wasm.br",
+              dataUrl: buildUrl + "/Memory.data",
+              frameworkUrl: buildUrl + "/Memory.framework.js",
+              codeUrl: buildUrl + "/Memory.wasm",
               streamingAssetsUrl: "StreamingAssets",
               companyName: "VelesGame",
               productName: "AnimeMemory",
@@ -94,7 +94,7 @@
           } else {
               // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
-              canvas.style.width = "960px";
+              canvas.style.width = "900px";
               canvas.style.height = "600px";
           }
 
@@ -120,7 +120,6 @@
           document.body.appendChild(script);
 
       </script>
-
       <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
 
       <script type="text/javascript">
@@ -160,7 +159,10 @@
 
           function setUserData(data) {
               console.log(typeof data == 'string');
-              vkBridge.send('VKWebAppStorageSet', { key: "save", value: data }).then((data) => {
+              vkBridge.send("VKWebAppStorageSet", {
+                  key: "save",
+                  value: data
+              }).then((data) => {
               }).catch((error) => {
                   // Ошибка
                   console.log(error);
